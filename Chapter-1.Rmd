@@ -1,0 +1,15 @@
+---
+title: "Hello, Data!"
+author: "Syed Faraz Ali"
+date: "9/9/2018"
+output: html_document
+---
+
+Loading text files of reasonable sizes
+
+```{r}
+library(hflights)
+write.csv(hflights, 'hflights.csv', row.names = FALSE)
+
+```
+
